@@ -1,3 +1,5 @@
+import { Pagemenu2Page } from './../pages/pagemenu2/pagemenu2';
+import { Pagemenu1Page } from './../pages/pagemenu1/pagemenu1';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
@@ -17,7 +19,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,Pagemenu1Page,Pagemenu2Page
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,Pagemenu1Page,Pagemenu2Page
   ],
   providers: [
     StatusBar,

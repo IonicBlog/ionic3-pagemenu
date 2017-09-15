@@ -1,26 +1,9 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# 效果图  
+Android效果 | iOS效果
+----------|---------
+![md](./android.png) | ![ios](./ios.png)  
 
-## How to use this template
-
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
-
-Then, to run it, cd into `myTabs` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+# 如何实现
+1.将assets/swiper文件夹复制到项目里的assets/文件夹里；   
+2.在index.html引入资源；    
+3.仿照home.html、home.ts、home.scss实现；  

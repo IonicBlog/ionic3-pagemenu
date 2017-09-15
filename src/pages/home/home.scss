@@ -1,3 +1,22 @@
 page-home {
-
+  .pageMenuSlides {
+    border-bottom: 0.55px solid rgba(0, 0, 0, 0.3);
+    .swiper-container {
+      width: 100%;
+      height: 44px;
+    }
+    .swiper-slide {
+      background: #fff;
+      color: #333;
+    }
+    .bottomLine {
+      border-bottom: 2px solid #488aff;
+    }
+  }
+  ion-slides {
+    background-color: white;
+    .slide-zoom {
+      height: 100%;
+    }
+  }
 }
